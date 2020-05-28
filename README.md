@@ -4,7 +4,7 @@ This repository features original scripts and algorithms that I find useful for 
 
 These scripts work by altering files directly on your computer. Please be sure to make backups of your files as some of this editing is destructive.
 
-In order to run these scripts, please install Ruby using the instructions below.
+In order to run these scripts, please install Ruby (the programming language this tool was created in) using the instructions below.
 
 ***Windows:*** https://rubyinstaller.org/
 
