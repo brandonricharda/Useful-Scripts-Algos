@@ -10,7 +10,7 @@ In order to run these scripts, please install Ruby using the instructions below.
 
 ***Mac:*** https://stackify.com/install-ruby-on-your-mac-everything-you-need-to-get-going/
 
-**How to Use Clean Links**
+<ins>**How to Use Clean Links**</ins>
 
 This script is great for chopping off parts of links in bulk if those parts follow some predictable rule. For example, Amazon links copied directly from the product page have a "/ref" section that is useless, along with anything that comes after it. Links can also sometimes have UTM codes starting with a question mark. This script works by getting you to identify the beginning of the text that needs to be removed. Then, it goes through the CSV file containing all of your links and generates a new file of "clean" links without the text you identified or anything that comes after it. It takes seconds rather than you having to do it repetitively.
 
