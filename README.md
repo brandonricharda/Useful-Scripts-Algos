@@ -2,7 +2,7 @@
 
 This repository features original scripts and algorithms that I find useful for automating repetitive tasks at work.
 
-These scripts work by altering files directly on your computer. Please be sure to make backups of your files as some of this editing is destructive.
+These scripts work by altering files directly on your computer. The tool is only limited to editing documents inside the Useful-Scripts-Algos (so it won't damage anything else on your computer) but be sure to back up any completed work inside this folder before you run one of these scripts again.
 
 In order to run these scripts, please install Ruby (the programming language this tool was created in) using the instructions below.
 
