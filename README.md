@@ -1,6 +1,8 @@
 # Useful-Scripts-Algos
 
-This repository features original scripts and algorithms that I find useful for automating repetitive tasks at work. In some cases, there are paid solutions available online. However, my solutions are free to use, custom-tailored to be **exactly** what I need. More importantly, I consider them great practice for implementing what I'm learning as I study web development. It's very rewarding to go from having a problem to coming up with a custom solution from scratch that makes my livelihood easier.
+This repository features original scripts and algorithms that I find useful for automating repetitive tasks at work (I'm an SEO content editor). In some cases, there are paid solutions available online. However, my solutions are free to use, custom-tailored to be **exactly** what I need. 
+
+More importantly, I consider them great practice for implementing what I'm learning as I study web development. It's very rewarding to go from having a problem to coming up with a custom solution from scratch that makes my livelihood easier.
 
 These scripts work by altering files directly on your computer. The tools are only limited to editing documents inside the Useful-Scripts-Algos (so they won't damage anything else on your computer) but be sure to back up any completed work inside this folder before you run one of these scripts again.
 
