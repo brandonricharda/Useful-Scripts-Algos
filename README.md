@@ -1,6 +1,6 @@
 # Useful-Scripts-Algos
 
-This repository features original scripts and algorithms that I find useful for automating repetitive tasks at work. In some cases, there are paid solutions available online. However, my solutions are free to use, custom-tailored to be **exactly** what I need, and also great for me to develop for practice as I learn Ruby, Javascript, and other languages.
+This repository features original scripts and algorithms that I find useful for automating repetitive tasks at work. In some cases, there are paid solutions available online. However, my solutions are free to use, custom-tailored to be **exactly** what I need. More importantly, I consider them great practice for implementing what I'm learning as I study web development. It's very rewarding to go from having a problem to coming up with a custom solution from scratch that makes my livelihood easier.
 
 These scripts work by altering files directly on your computer. The tools are only limited to editing documents inside the Useful-Scripts-Algos (so they won't damage anything else on your computer) but be sure to back up any completed work inside this folder before you run one of these scripts again.
 
@@ -18,4 +18,4 @@ I created this script because I had a task at work where I needed to remove the 
 
 **Extract Emails**
 
-I created this script because I had a folder of nearly 500 resumes in .PDF and and .docx format and needed to extract the emails from them. There are paid solutions available to do this in bulk but the only free ones I found only handled single files.
+I created this script because I had a folder of nearly 500 resumes in .PDF and and .docx format and needed to extract the emails from them. There are paid solutions available to do this in bulk for Windows but the only free ones I found only handled single files. My solution works on Windows or OS X and handles **all** the files in a given folder.
