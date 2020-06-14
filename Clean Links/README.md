@@ -6,7 +6,7 @@ Using this tool is super simple:
 
 1. Make sure you have Ruby installed on your computer.
 2. Download this entire folder from Github. Make sure it is on your Desktop.
-3. Open your computer's Terminal and enter the following:
+3. Open your computer's Terminal and navigate to the Clean Links directory. That will usually involve entering the following:
 
 **Windows:** cd c:\Users\your_username\Desktop\Useful-Scripts-Algos\Clean\ Links/
 
