@@ -25,7 +25,7 @@ If you type "ruby clean_links.rb" into Terminal and nothing seems to be happenin
 
 When following the on-screen prompts in the software, don't worry about typing the file extensions in. The script assumes you're dealing with CSVs.
 
-Lastly, this tool won't work unless your links have a common identifiable portion that needs to be removed. The parts *after* that portion can be unique but there needs to be a common part.
+Lastly, this tool won't work unless your links have a common identifiable portion that needs to be removed. The parts *after* that portion can be unique but there needs to be a common starting point.
 
 Take this Amazon link, for example:
 
