@@ -20,4 +20,4 @@ I created this script because I had a task at work where I needed to remove the 
 
 **Extract Emails**
 
-I created this script because I had a folder of nearly 500 resumes in .PDF and and .docx format and needed to extract the emails from them. There are paid solutions available to do this in bulk for Windows but the only free ones I found merely handled single files. My solution works on Windows or OS X and handles **all** the files in a given folder.
+I created this script because I had a folder of nearly 500 resumes in .PDF and and .docx format and needed to extract the emails from them. There are paid solutions available to do this in bulk for Windows but the only free ones I found merely handled single files. My solution works on Windows or OS X and handles **all** the PDF/DOCX files in a given folder.
