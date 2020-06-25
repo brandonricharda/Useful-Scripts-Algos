@@ -27,4 +27,4 @@ puts "Where do you want to chop the links? For example, if you're cleaning Amazo
 puts "Whatever you enter, I'll remove it and EVERYTHING that follows."
 removal_text = gets.chomp
 
-cleanLinks (file_name, removal_text)
+cleanLinks(file_name, removal_text)
