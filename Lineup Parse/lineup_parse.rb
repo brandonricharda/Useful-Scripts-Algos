@@ -64,3 +64,5 @@ def create_sheet
         end
     end
 end
+
+create_sheet
