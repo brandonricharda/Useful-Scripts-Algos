@@ -4,7 +4,7 @@ This repository features original scripts and algorithms that I find useful for 
 
 More importantly, I consider this great practice for implementing what I'm learning as I study web development. It's very rewarding to go from having a real-world problem to coming up with a custom solution from scratch.
 
-These scripts work by altering files directly on your computer. The tools are only limited to editing documents inside the Useful-Scripts-Algos (so they won't damage anything else on your computer) but be sure to back up any completed work inside this folder before you run one of these scripts again.
+These scripts work by altering files directly on your computer. The tools are only limited to editing documents inside the Useful-Scripts-Algos directory (so they won't damage anything else on your computer) but be sure to back up any completed work inside this folder before you run one of these scripts again.
 
 In order to run these scripts, please install Ruby (the programming language these tools were created in) using the instructions below.
 
