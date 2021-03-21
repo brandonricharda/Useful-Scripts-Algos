@@ -1,9 +1,9 @@
 require 'docx'
 require 'csv'
 
-@file = Docx::Document.open('FILE_PATH.docx')
+@file = Docx::Document.open('./Files/Schedules/FILENAME.docx')
 
-@months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+@months = ["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
 
 @raw_text = []
 @nested_text = {}
@@ -30,7 +30,10 @@ def text_sort(raw_text, nested_text)
         elsif project_name?(line)
             current_project = clean_string
             nested_text[current_date][current_project] = []
-        elsif worker_name?(line)
+        elsif worker_name?(line) || worker_name_with_note?(line)
+            p clean_string
+            p current_date
+            p current_project
             nested_text[current_date][current_project] << clean_string
         end
     end
@@ -75,7 +78,7 @@ end
 
 #if the paragraph contains an emphasized character, it's a project name
 def project_name?(paragraph)
-    return paragraph.to_html.include?("strong") && !worker_name?(paragraph)
+    return paragraph.to_html.include?("strong") && (!worker_name?(paragraph) && !date?(paragraph))
 end
 
 def header?(paragraph)
@@ -84,7 +87,11 @@ end
 
 #if the paragraph contains between one and two words and no digits, it's a worker's name
 def worker_name?(paragraph)
-    return paragraph.text.split(" ").length.between?(1, 2) && !paragraph.text.match?(/\d/)
+    return paragraph.text.split(" ").length.between?(1, 2) && (!paragraph.text.match?(/\d/) && !paragraph.text.include?("Belmont"))
+end
+
+def worker_name_with_note?(paragraph)
+    return !project_name?(paragraph) && paragraph.text.include?("(")
 end
 
 #creates the CSV file
@@ -119,3 +126,4 @@ def driver
 end
 
 driver
+
