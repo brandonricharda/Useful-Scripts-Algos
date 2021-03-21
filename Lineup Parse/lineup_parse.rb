@@ -1,7 +1,7 @@
 require 'docx'
 require 'csv'
 
-@file = Docx::Document.open('./Files/Schedules/REVISED LINE- UP WEEK ENDING MAR 21-2021.docx')
+@file = Docx::Document.open('./Files/Schedules/FILENAME.docx')
 
 @months = ["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
 
